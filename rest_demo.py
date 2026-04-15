@@ -3,6 +3,7 @@ from pydantic import BaseModel
 #调用fastAPI接口
 app=FastAPI()
 
+
 users = [
     {"id": 1, "name": "Alice", "age": 23},
     {"id": 2, "name": "Bob", "age": 25}
